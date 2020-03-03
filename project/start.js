@@ -13,8 +13,16 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
+app.get('/index', function(request, response) {
+  response.render('pages/index');
+});
+
 app.get('/table', function(request, response) {
   response.render('pages/table');
+});
+
+app.get('/navigation-bar', function(request, response) {
+  response.render('pages/navigation-bar');
 });
 
 app.listen(app.get('port'), function() {

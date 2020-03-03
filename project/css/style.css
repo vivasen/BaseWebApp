@@ -10,7 +10,26 @@
 body{
     background: url(img/image.jpg) no-repeat center center fixed;
     background-size: cover;
-}
+    font-family: Arial, serif;
+    text-align: center;
+    color: #343a40;
+    font-size: 22px;
+  }
+
+ /* h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}*/
 
 
 /*--- Start Slider ---*/
@@ -146,12 +165,7 @@ body{
     top: -50px;
     left: calc(50% - 50px);
 }
-h1{
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 22px;
-}
+
 .login-box p{
     margin: 0;
     padding: 0;

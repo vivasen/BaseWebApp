@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 body {
   font-family: Arial, serif;
   text-align: center;
@@ -6,11 +7,20 @@ body {
   font-size: 22px;
 }
 
-h1 {
+/*h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   margin-top: 40px;
   font-size: 48px;
+}*/
+
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 40px;
+  font-size: 35px;
+  text-align: center;
 }
 
 p {
@@ -31,4 +41,21 @@ button {
 #image img {
   height: 200px;
   margin-top: 60px;
+}
+
+.nav > li > a{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;    
+  letter-spacing: .1rem;
+  color: #000;
+}
+
+.nav-link > li > a:hover{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;    
+  letter-spacing: .1rem;
+  color: #1ebba3;
+  
 }
